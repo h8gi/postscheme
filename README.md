@@ -1,7 +1,13 @@
 # PostScript Utilities on Chicken-Scheme
-chicken-schemeからPostScriptをたたきましょう  
+chicken-schemeからPostScriptを吐きだします
 ## USAGE
-(use postscheme)
+
+```
+   $ chicken-install
+
+   csi> (use postscheme)
+
+```
 
 ## 色々
 ### (easy-fontset font size)
@@ -13,7 +19,7 @@ chicken-schemeからPostScriptをたたきましょう
         (setfont))  
 ```
 
-オリジナルな函数はこれくらい
+オリジナルな関数はこれくらい
 
 
 
