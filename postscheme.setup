@@ -1,0 +1,13 @@
+;; postscheme.setup
+
+;;; コンパイル  => postscheme.so
+(compile -s -O3 -d1 "postscheme.scm" -j postscheme)
+(compile -s -O3 -d0 "postscheme.import.scm")
+;;; インストール
+(install-extension
+ 'postscheme
+ '("postscheme.so" "postscheme.import.so")
+ '((version 1.0)))
+
+
+

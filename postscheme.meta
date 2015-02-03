@@ -1,0 +1,6 @@
+;;; postscheme.meta
+
+((author "yagi hiroki")
+ (synopsis "PostScript Utilities")
+ (license "GPLv3")
+ (files "postscheme.scm" "postscheme.setup"))
